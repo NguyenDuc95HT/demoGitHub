@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64ba76dd-ae7c-4b4b-a52d-885fa60bfcdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HienThiKQ1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HienThiKQ2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HienThiKQ3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HienThiKQ4.html" afterDir="false" />
-    </list>
+    <list default="true" id="64ba76dd-ae7c-4b4b-a52d-885fa60bfcdc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -136,16 +130,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551254914978</updated>
-      <workItem from="1551254918878" duration="1872000" />
+      <workItem from="1551254918878" duration="2593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1872000" />
+    <option name="totallyTimeSpent" value="2593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />

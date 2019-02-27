@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculater</title>
+</head>
+<body>
+	<input type="text" id="NumA">
+	<input type="text" id="NumB">
+	<br>
+	<button type="button" onclick="addfunction()" >Addition(+)</button>
+	<button type="button" onclick="subfunction()" >Subtraction(-)</button>
+	<button type="button" onclick="multfunction()" >Multiplication(x)</button>
+	<button type="button" onclick="divfunction()" >Division(/)</button>
+	<br>
+	<div id="resultId"></div>
+	<script>
+
+    getElementID = (nameId) => {
+        return parseInt(document.getElementById(nameId).value);
+    }
+		addfunction = () => {
+       let a = getElementID('NumA');
+       let b = getElementID('NumB');
+			 let res = a + b;
+			document.getElementById('resultId').innerHTML = 'Result: ' + res
+		}
+    subfunction = () => {
+      let a = getElementID('NumA');
+      let b = getElementID('NumB');
+      let res = a - b;
+     document.getElementById('resultId').innerHTML = 'Result: ' + res
+    }
+    multfunction = () => {
+      let a = getElementID('NumA');
+      let b = getElementID('NumB');
+      let res = a * b;
+     document.getElementById('resultId').innerHTML = 'Result: ' + res
+    }
+    divfunction = () => {
+      let a = getElementID('NumA');
+      let b = getElementID('NumB');
+      let res = a / b;
+     document.getElementById('resultId').innerHTML = 'Result: ' + res
+    }
+	</script>
+</body>
+</html>
