@@ -17,31 +17,31 @@
 	<script>
 
     getElementID = (nameId) => {
-        return parseInt(document.getElementById(nameId).value);
+      return parseInt(document.getElementById(nameId).value);
     }
 		addfunction = () => {
-       let a = getElementID('NumA');
-       let b = getElementID('NumB');
-			 let res = a + b;
-			document.getElementById('resultId').innerHTML = 'Result: ' + res
+      let a = getElementID('NumA');
+      let b = getElementID('NumB');
+			let res = a + b;
+			document.getElementById('resultId').innerHTML = 'Result: ' + res;
 		}
     subfunction = () => {
       let a = getElementID('NumA');
       let b = getElementID('NumB');
       let res = a - b;
-     document.getElementById('resultId').innerHTML = 'Result: ' + res
+     document.getElementById('resultId').innerHTML = 'Result: ' + res;
     }
     multfunction = () => {
       let a = getElementID('NumA');
       let b = getElementID('NumB');
       let res = a * b;
-     document.getElementById('resultId').innerHTML = 'Result: ' + res
+     document.getElementById('resultId').innerHTML = 'Result: ' + res;
     }
     divfunction = () => {
       let a = getElementID('NumA');
       let b = getElementID('NumB');
       let res = a / b;
-     document.getElementById('resultId').innerHTML = 'Result: ' + res
+     document.getElementById('resultId').innerHTML = 'Result: ' + res;
     }
 	</script>
 </body>
